@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.picture-container img {
+  width: 300px;
+}
+
+.bg-image {
+  padding-top: 100px;
+  text-align: center;
+  background-image: url("./wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 700px;
+  background-attachment: fixed;
+}
+
+.bg-image h1 {
+  color: red;
+}

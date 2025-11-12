@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  /* hex code  */
+  color: #ff0000;
+  background-color: black;
+}
+
+.title2 {
+  /* rgba color  */
+  color: rgb(1, 129, 1);
+  background-color: rgba(2, 2, 254, 0.8);
+}
+
+#title3 {
+  color: white;
+  background-color: tomato;
+}
+
+.backgrond_image {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("./chair.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  padding-top: 200px;
+  background-blend-mode: overlay;
+}
+
+.backgrond_image h2 {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.backgrond_image p {
+  font-size: 20px;
+  color: #fff;
+}

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-image: url("./team.avif");
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(130, 1, 130, 0.4);
+  background-blend-mode: overlay;
+}
+
+.wrapper h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.wrapper p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* height: 700px; */
+  width: 500px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.input_container {
+  margin-bottom: 15px;
+}
+
+.input_container .label_in {
+  margin-bottom: 5px;
+}
+
+.input_container label {
+  color: #fff;
+}
+
+.input_container input {
+  padding: 5px;
+  width: 100%;
+  outline: none;
+}
+/* .input_container input::placeholder {
+    color: red;
+} */
+.input_container input[type="radio"] {
+  width: auto;
+  padding: 0;
+}
+.input_container input[type="checkbox"] {
+  width: auto;
+  padding: 0;
+}
+.radio_in {
+  margin-bottom: 5px;
+}
+.input_container select {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+}
+
+.input_container textarea {
+  width: 100%;
+  min-height: 150px;
+  outline: none;
+  padding: 5px;
+}
+.input_container button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  color: #fff;
+  background-color: lightgreen;
+  border: none;
+  cursor: pointer;
+}

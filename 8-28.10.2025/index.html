@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>შეავსეთ ფორმა</legend>
+        <div>
+          <label for="user">Username:</label>
+          <input type="text" id="user" placeholder="ჩაწერე სახელი" />
+        </div>
+        <div>
+          <label for="pass">Password:</label>
+          <input type="password" id="pass" placeholder="ჩაწერე პაროლი" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="ჩაწერე ელ.ფოსტა" />
+        </div>
+        <div>
+          <label for="age">Age:</label>
+          <input
+            type="number"
+            id="age"
+            placeholder="ჩაწერე ასაკი"
+            min="15"
+            max="100"
+          />
+        </div>
+        <div>
+          <label for="bdate">Birth Date:</label>
+          <input type="date" id="bdate" />
+        </div>
+        <div>
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" /> <label for="">კაცი</label>
+          <input type="radio" name="gender" /> <label for="">ქალი</label>
+        </div>
+        <div>
+          <label for="">Favourite Fruit:</label>
+          <input type="checkbox" name="fruit" /> <label for="">ბანანი</label>
+          <input type="checkbox" name="fruit" /> <label for="">ვაშლი</label>
+          <input type="checkbox" name="fruit" /> <label for="">მსხალი</label>
+        </div>
+        <div>
+          <label for="color">Choose a color:</label>
+          <input type="color" id="color" />
+        </div>
+        <div>
+          <label for="files">Choose file:</label>
+          <input type="file" id="files" />
+        </div>
+        <div>
+          <label for="">Choose a car:</label>
+          <select>
+            <option value="" selected disabled></option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+          </select>
+        </div>
+        <div>
+          <div>
+            <label for="message">Message:</label>
+          </div>
+          <textarea id="message" placeholder="მოგვწერე მესიჯი"></textarea>
+        </div>
+        <div>
+          <button type="submit">Log In</button>
+          <button type="reset">Reset</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

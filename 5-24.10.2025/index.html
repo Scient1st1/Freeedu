@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iframe,audio,video</title>
+    <link rel="icon" type="image/x-icon" href="./favcon.ico" />
+  </head>
+  <body>
+    <h1>Welcome to my site</h1>
+    <iframe
+      style="width: 50%; height: 300px"
+      src="https://www.freeeduge.ge/"
+      frameborder="0"
+    ></iframe>
+    <br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/8v8RqUco4NA?si=GAy5YmlsjT-cQSlB"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <video controls muted loop>
+      <source src="./mov_bbb.mp4" type="video/mp4" />
+    </video>
+    <br />
+    <audio controls muted>
+      <source src="./horse.ogv" type="audio/ogg" />
+    </audio>
+
+    <!-- 
+    1)შემოიტანეთ ვიდეო youtube-დან, iframe-ით;
+    2)შემოიტანეთ ვიდეო, video ტეგის გამოყენებით;
+    3)შემოიტანეთ აუდიო ფაილი, audio ტეგის გამოყენებით;
+      -->
+  
+    
+  </body>
+</html>

@@ -1,0 +1,32 @@
+h1 {
+  color: red;
+  background-color: black;
+}
+
+.mainMenu {
+  background-color: lightcoral;
+  width: 50%;
+  margin: auto;
+}
+
+.mainMenu a {
+  color: green;
+}
+
+.footerMenu a {
+  color: orange;
+}
+
+.title {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.footerTitle {
+  color: blue;
+  background-color: green;
+}

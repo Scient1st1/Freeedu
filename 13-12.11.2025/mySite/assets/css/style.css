@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 1000px;
+  margin: auto;
+  height: 500px;
+  background-color: red;
+  background-image: url("../images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.test {
+  background-color: orange;
+  height: 300px;
+  width: 50%;
+}
+
+.childOfTest {
+  height: 150px;
+  border: solid 10px green;
+  /* inherit არის მშობელი ელემენტის სტილი */
+  background-color: inherit;
+  /* width: 50%; */
+
+  /* vw არის ეკრანის პროცენტი  */
+  width: 70vw;
+}
